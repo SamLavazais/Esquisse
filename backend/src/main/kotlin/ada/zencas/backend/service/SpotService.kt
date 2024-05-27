@@ -24,6 +24,7 @@ class SpotService(private val repository: SpotRepository) {
             spot.description,
             spot.latitude,
             spot.longitude,
+            spot.photoUrl,
 //            spot.country,
 //            spot.city,
 //            spot.place,
@@ -38,6 +39,7 @@ class SpotService(private val repository: SpotRepository) {
             spot.category,
             spot.latitude,
             spot.longitude,
+            spot.photoUrl,
 //            spot.country,
 //            spot.city,
 //            spot.place,
@@ -51,6 +53,7 @@ class SpotService(private val repository: SpotRepository) {
         spot.description = spotRequest.description
         spot.latitude = spotRequest.latitude
         spot.longitude = spotRequest.longitude
+        spot.photoUrl = spotRequest.photoUrl
     }
 
     private fun checkForSpotId(id: Long): Boolean {
