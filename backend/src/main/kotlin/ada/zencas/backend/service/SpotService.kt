@@ -53,6 +53,7 @@ class SpotService(private val repository: SpotRepository) {
         spot.description = spotRequest.description
         spot.latitude = spotRequest.latitude
         spot.longitude = spotRequest.longitude
+        spot.photoUrl = spotRequest.photoUrl
     }
 
     private fun checkForSpotId(id: Long): Boolean {
