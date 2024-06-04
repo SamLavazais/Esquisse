@@ -2,20 +2,32 @@
 
 Application mobile de partage de lieux urbains visuellement insolites !
 
-## Authors
+## Contributeur-ices
 
-- Apolline DIAZ
-- Nicolas PERROTIN
-- Sam LAVAZAIS
-- Chloé PELERIN
-- Eliana YEPEZ
-- Zachary JORIOT
+- Apolline DIAZ (https://github.com/apolline-diaz)
+- Nicolas PERROTIN (https://github.com/nicotine189)
+- Sam LAVAZAIS (https://github.com/SamLavazais)
+- Chloé PELERIN (https://github.com/pchloe02)
+- Eliana YEPEZ (https://github.com/Arteinsana7)
+- Zachary JORIOT (https://github.com/maxlebro)
+
+## Déroulement du projet
+
+-   **Dates :** du 29 avril au 24 mai 2024
+-   **Cadre :** Formation Ada Tech School
+-   **Modalités :** projet collectif de 6 personnes
 
 ## Tech Stack
 
-**Front-end (mobile) :** Android Studio, Kotlin, JetPack Compose
+**Front-end (mobile) :**
+- Android Studio
+- Kotlin
+- JetPack Compose
 
-**Back-end :** Spring Boot, Kotlin, PostGreSQL
+**Back-end :**
+- Spring Boot
+- Kotlin
+- PostGreSQL
 
 
 ****************************
